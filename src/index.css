@@ -1,0 +1,25 @@
+.galeria{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem
+}
+
+article{
+  position: relative;
+}
+
+.imglist{
+  width: 100%;
+  height: auto;
+}
+.absolute {
+  position: absolute;
+  top: 2px;;
+  right:5px;
+}
+
+.buttonImagen{
+  border: none;
+  padding: 0;
+  background: none;
+}
